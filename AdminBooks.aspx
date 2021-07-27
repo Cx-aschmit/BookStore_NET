@@ -1,4 +1,4 @@
-<%@ Page language="c#" Inherits="Book_Store.AdminBooks" CodeFile="AdminBooks.cs" %>
+<%@ Page language="c#" Inherits="Book_Store.AdminBooks" CodeFile="AdminBooks.cs" %> sss
 <%@ Register TagPrefix="CC" TagName="Header" Src="Header.ascx" %><%@ Register TagPrefix="CC" TagName="Footer" Src="Footer.ascx" %><%@Register TagPrefix="CC" TagName="Pager" Src="CCPager.ascx"%>
 
 
