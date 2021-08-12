@@ -8,6 +8,14 @@ trigger:
 
 pool:
   vmImage: 'VS2017-Win2016'
+- task: Application security testing@2021
+  inputs:
+    projectName: 'Bookstore.NET'
+    enableProxy: false
+    enableSastScan: false
+    enableDependencyScan: true
+    dependencyServerURL: 'CxSCA_aschmit2'
+    dependencyTenant: 'PWCTaxDivision'
 
 variables:
   solution: '**/*.sln'
