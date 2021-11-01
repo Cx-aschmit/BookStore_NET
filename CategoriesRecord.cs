@@ -324,7 +324,7 @@ Categories_BeforeSQLExecute(sSQL,"Delete");
 		return false;
 	}
 	
-// Categories AfterDelete Event begin
+// Categories AfterDelete Event begin bang bang
 // Categories AfterDelete Event end
 	return true;
 }
